@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+
+}
+
+#nav-part1{
+    display: flex;
+    gap: 40px;
+    width: 40%;
+    align-items: left;
+}
+
+#nav-part2{
+    display: flex;
+    gap: 40px;
+    width: 40%;
+    justify-content: flex-end; 
+}
+
+#nav-part1 h4{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#nav img{
+    height: 55px;
+}
+
+#nav-part2 button{
+    padding: 15px 17px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+#nav-part2 #log{
+    background-color: white;
+    color: #000;
+}

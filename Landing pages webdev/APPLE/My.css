@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#one{
+    height: 44px;
+    width: 100%;
+    background-color: #18191F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+h4{
+    color: #D6D6D6;
+    font-size: 12px;
+    font-weight: 10;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+
+}
+i{
+    color: #D6D6D6;
+}
+#two{
+    overflow: hidden;
+    height: 78.4%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#h3{
+    color: white;
+    font-size: 55px;
+    font-weight: 550;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;;
+    position: absolute;
+    top: 12%;
+    left: 38.5%;
+}
+#h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 540;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;;
+    position: absolute;
+    top: 21%;
+    left: 36%;
+}
+#three{
+    color: #2997FF;
+    font-size: 23px;
+    font-weight: 200;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+
+}
+img{position: absolute;
+    width: 70%;
+    height: 380px;
+    top: 33%;
+    left: 24%;    
+    
+}
+#learn{
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;;
+    position: absolute;
+    top: 27%;
+    left: 42%;
+}
+#buy{text-decoration: none;
+    color: #2997FF;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;;
+    position: absolute;
+    top: 27%;
+    left: 52%;
+}
+#iphone{
+    text-decoration: none;
+    color: #1D1D1F;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    font-size: 50px;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;;
+    font-weight: 550;
+}
+
